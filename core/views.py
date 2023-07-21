@@ -11,7 +11,6 @@ def index_view(request):
 
 
 class AddCustomerView(APIView):
-
     def post(self, request):       
         serializer = CustomerSerializer(data=request.data)
         if serializer.is_valid():

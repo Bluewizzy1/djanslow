@@ -4,4 +4,5 @@ from core.models import Customer
 
 class CustomerSerializer(ModelSerializer):
     class Meta:
-        model = Customerfields = "__all__"
+        model = Customer
+        fields = "__all__"
