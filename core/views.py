@@ -5,5 +5,5 @@ from rest_framework.response import Response
 # Create your views here.
 
 
-def index(request):
+def index_view(request):
     return Response({'status':status.HTTP_200_OK})
